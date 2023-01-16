@@ -93,10 +93,10 @@ letter-spacing: 0.02em;
     color: var(--pressed-txt-cl);
 }
 /* Site-nav */
-.site-nav.link {
+.site-nav .link {
     color: var(--dark-txt-cl);
     font-weight: 500;
-    /* не застосовується weight */
+    
 }
 
 .site-nav .link:hover,
@@ -167,8 +167,7 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
-letter-spacing: 0.02em;
-
+letter-spacing: 0.02;
 }
 
 /* Button  */
@@ -177,6 +176,12 @@ letter-spacing: 0.02em;
     background-color: var(--primery-bg-cl);
     cursor: pointer;
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04;
 }
 .button-hero:hover,
 .button-hero:focus {
@@ -222,11 +227,8 @@ background-color: var(--pressed-bg-cl);
 
 /* Button of filter */
 .button-filter {
-        font-size: 16px;
-        line-height: 1.5;
         align-items: center;
         text-align: center;
-        letter-spacing: 0.04;
         display: flex;
 }
 
@@ -235,11 +237,14 @@ background-color: var(--pressed-bg-cl);
         background-color: var(--light-bg-cl);
         font-family: inherit;
         font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
         height: 48px;
         width: 69px;
         left: 0px;
         top: 0px;
         cursor: pointer;
+        letter-spacing: 0.04;
     }
 .button-filter-all:hover,
 .button-filter-all:focus{
@@ -250,6 +255,8 @@ background-color: var(--pressed-bg-cl);
 .button-filter-web {
     color: var(--primery-txt-cl);
     background-color: var(--light-bg-cl);
+    font-size: 16px;
+    line-height: 1.5;
     font-weight: 500;
     height: 48px;
     width: 116px;
@@ -257,6 +264,7 @@ background-color: var(--pressed-bg-cl);
     top: 0px;
     cursor: pointer;
     font-family: inherit;
+    letter-spacing: 0.04;
 }
 .button-filter-web:hover,
 .button-filter-web:focus{
@@ -267,6 +275,8 @@ background-color: var(--pressed-bg-cl);
 .button-filter-app {
     color: var(--primery-txt-cl);
     background-color: var(--light-bg-cl);
+    font-size: 16px;
+    line-height: 1.5;
     font-weight: 500;
     height: 48px;
     width: 78px;
@@ -274,6 +284,7 @@ background-color: var(--pressed-bg-cl);
     top: 0px;
     cursor: pointer;
     font-family: inherit;
+    letter-spacing: 0.04;
 }
 .button-filter-app:hover,
 .button-filter-app:focus {
@@ -284,6 +295,8 @@ background-color: var(--pressed-bg-cl);
 .button-filter-design {
     color: var(--primery-txt-cl);
     background-color: var(--light-bg-cl);
+    font-size: 16px;
+    line-height: 1.5;
     font-weight: 500;
     height: 48px;
     width: 101px;
@@ -291,6 +304,7 @@ background-color: var(--pressed-bg-cl);
     top: 0px;
     cursor: pointer;
     font-family: inherit;
+    letter-spacing: 0.04;
 }
 .button-filter-design:hover,
 .button-filter-design:focus {
@@ -300,6 +314,8 @@ background-color: var(--pressed-bg-cl);
 }.button-filter-marketing {
     color: var(--primery-txt-cl);
     background-color: var(--light-bg-cl);
+    font-size: 16px;
+    line-height: 1.5;
     font-weight: 500;
     height: 48px;
     width: 126px;
@@ -307,6 +323,7 @@ background-color: var(--pressed-bg-cl);
     top: 0px;
     cursor: pointer;
     font-family: inherit;
+    letter-spacing: 0.04;
 }
 .button-filter-marketing:hover,
 .button-filter-marketing:focus {
