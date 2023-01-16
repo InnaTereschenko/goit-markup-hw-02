@@ -60,9 +60,19 @@ letter-spacing: 0.02em;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+.button {
+    letter-spacing: 0.04;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    }
  /**
   |============================
   | Header 
@@ -74,7 +84,7 @@ letter-spacing: 0.02em;
     font-family: var(--secondary-font);
     font-size: 18px;
     line-height: 1.33;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     font-weight: 800;
 }
 
@@ -135,7 +145,7 @@ text-transform: uppercase;
 font-family: var(--secondary-font);
 font-size: 18px;
 line-height: 1.33;
-letter-spacing: 0.03;
+letter-spacing: 0.03em;
 font-weight: 800;
 }
 
@@ -167,22 +177,15 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
 }
 
 /* Button  */
 .button-hero {
     color: var(--white-txt-cl);
     background-color: var(--primery-bg-cl);
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04;
-}
+    letter-spacing: 0.04em;
+    }
 .button-hero:hover,
 .button-hero:focus {
 color: var(--white-txt-cl);
@@ -199,9 +202,12 @@ background-color: var(--pressed-bg-cl);
   |  Section 2 Item
   |============================
 */
+/**
+  |============================
+  | Section 3 Team list
+  |============================
+*/
 
-
-/* Section 3 Team list */
 .team-list{
     background: var(--light-bg-cl);
     }
@@ -230,22 +236,22 @@ background-color: var(--pressed-bg-cl);
         align-items: center;
         text-align: center;
         display: flex;
-}
+       }
 
 .button-filter-all {
         color: var(--primery-txt-cl);
         background-color: var(--light-bg-cl);
-        font-family: inherit;
-        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
+        font-weight: 500;
         height: 48px;
         width: 69px;
         left: 0px;
         top: 0px;
         cursor: pointer;
-        letter-spacing: 0.04;
-    }
+        font-family: inherit;
+        letter-spacing: 0.04em;
+            }
 .button-filter-all:hover,
 .button-filter-all:focus{
     color: var(--white-txt-cl);
@@ -264,8 +270,8 @@ background-color: var(--pressed-bg-cl);
     top: 0px;
     cursor: pointer;
     font-family: inherit;
-    letter-spacing: 0.04;
-}
+    letter-spacing: 0.04em;
+    }
 .button-filter-web:hover,
 .button-filter-web:focus{
     color: var(--white-txt-cl);
@@ -284,8 +290,8 @@ background-color: var(--pressed-bg-cl);
     top: 0px;
     cursor: pointer;
     font-family: inherit;
-    letter-spacing: 0.04;
-}
+    letter-spacing: 0.04em;
+    }
 .button-filter-app:hover,
 .button-filter-app:focus {
     color: var(--white-txt-cl);
@@ -304,7 +310,7 @@ background-color: var(--pressed-bg-cl);
     top: 0px;
     cursor: pointer;
     font-family: inherit;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
 }
 .button-filter-design:hover,
 .button-filter-design:focus {
@@ -323,7 +329,7 @@ background-color: var(--pressed-bg-cl);
     top: 0px;
     cursor: pointer;
     font-family: inherit;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
 }
 .button-filter-marketing:hover,
 .button-filter-marketing:focus {
